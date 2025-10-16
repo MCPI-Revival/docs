@@ -27,11 +27,11 @@ jobs:
             uses: actions/configure-pages@v5
             # Build Site
           - name: Install Dependencies
-            run: ./install-mkdocs.sh
+            run: ./scripts/install-mkdocs.sh
           - name: Download MCPI-Reborn Documentation
-            run: ./download-reborn-docs.sh
+            run: ./scripts/download-reborn-docs.sh
           - name: Build Site
-            run: ./build.sh
+            run: ./scripts/build.sh
             # Deploy Site
           - name: Upload Site
             uses: actions/upload-pages-artifact@v3
