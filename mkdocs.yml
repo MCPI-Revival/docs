@@ -8,6 +8,7 @@ theme: readthedocs
 plugins:
   - search
   - gh-admonitions
+  - awesome-nav
 markdown_extensions:
   - admonition
   - footnotes

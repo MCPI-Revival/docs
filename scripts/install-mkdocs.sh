@@ -12,3 +12,4 @@ inject() {
 inject mkdocs-github-admonitions-plugin
 inject mdx_truly_sane_lists
 inject pymdown-extensions
+inject mkdocs-awesome-nav
