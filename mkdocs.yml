@@ -1,6 +1,7 @@
 site_name: MCPI-Revival
 site_url: https://mcpi-revival.github.io/docs
 repo_url: https://github.com/MCPI-Revival/docs
+site_description: 'Minecraft: Pi Edition: Revival Project'
 
 theme: readthedocs
 
