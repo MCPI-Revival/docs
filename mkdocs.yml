@@ -1,6 +1,11 @@
 site_name: MCPI-Revival
+site_url: https://mcpi-revival.github.io/docs
+repo_url: https://github.com/MCPI-Revival/docs
+
 theme: readthedocs
+
 plugins:
+  - search
   - gh-admonitions
 markdown_extensions:
   - admonition
