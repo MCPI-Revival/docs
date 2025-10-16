@@ -30,5 +30,5 @@ More information can be found [here](Legacy (2.X)/Introduction.md).
 ## 1.0.0 (MCPI-Docker)
 
 In 2020, it was initially known as "Minecraft: Pi Edition for Docker"
-(or MCPI-Docker). In 2021, with the rleeae of 2.0.0, it was renamed to
+(or MCPI-Docker). In 2021, with the release of 2.0.0, it was renamed to
 "Minecraft: Pi Edition: Reborn" after Docker was dropped.
