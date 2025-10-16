@@ -1,0 +1,42 @@
+name: 'CI'
+on:
+    push:
+        branches:
+          - master
+
+# Permissions
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+# Jobs
+jobs:
+    # Publish Project
+    publish:
+        name: Publish
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            # Setup
+          - name: Checkout Repository
+            uses: actions/checkout@v4
+          - name: Setup GitHub Pages
+            uses: actions/configure-pages@v5
+            # Build Site
+          - name: Install Dependencies
+            run: ./install-mkdocs.sh
+          - name: Download MCPI-Reborn Documentation
+            run: ./download-reborn-docs.sh
+          - name: Build Site
+            run: ./build.sh
+            # Deploy Site
+          - name: Upload Site
+            uses: actions/upload-pages-artifact@v3
+            with:
+                path: ./site
+          - name: Deploy To GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v4
