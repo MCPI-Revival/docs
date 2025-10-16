@@ -4,7 +4,7 @@ set -e
 
 # Values
 URL="https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn"
-DIR=docs/reborn
+DIR='docs/Reborn'
 
 # Clean Up
 rm -rf "${DIR}"
@@ -15,8 +15,15 @@ clone() {
     # Clone
     BRANCH="$1"
     git clone --depth 1 "${URL}.git" -b "${BRANCH}" tmp
+
+    # Copy Files
     OUT="${DIR}/$2"
     cp -r tmp/docs "${OUT}"
+    INDEX="${OUT}/index.md"
+    cp tmp/README.md "${INDEX}"
+    START='start.png'
+    find tmp/images -name "${START}" -exec \
+        cp {} "${OUT}" \;
     rm -rf tmp
 
     # Remove Unneeded Files
@@ -36,6 +43,12 @@ clone() {
     fix mods
     fix libreborn
     fix symbols
+
+    # Patch Section Index
+    sed -i 's|docs/||g' "${INDEX}"
+    sed -i '/## Documentation/,$d' "${INDEX}"
+    sed -i 's|height="\([0-9]\+\)"|style="height: \1px"|g' "${INDEX}"
+    sed -i "s|\"images/.*${START}|\"${START}|g" "${INDEX}"
 }
 
 # Latest

@@ -2,6 +2,7 @@ site_name: MCPI-Revival
 theme: readthedocs
 plugins:
   - gh-admonitions
+  - section-index
 markdown_extensions:
   - admonition
   - footnotes
