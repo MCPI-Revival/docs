@@ -1,6 +1,8 @@
+# Tile Entity List
+
 This page lists every tile entity in MCPI, it's id and it's data.
 
-``` text
+```text
 1: FurnaceTileEntity, "Furnace"
 - Items: ItemInstance[3] (the item slots are also loaded/saved, under the "Slot" byte)
 - BurnTime: short

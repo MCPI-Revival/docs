@@ -1,3 +1,5 @@
+# MCPIL
+
 MCPIL collectively refers to a group of launchers for Minecraft: Pi
 Edition, developed and maintained by the MCPI Revival project.
 
@@ -5,16 +7,14 @@ Edition, developed and maintained by the MCPI Revival project.
 
 The original Launcher started as the main project of MCPI-Revival
 (previously known as MCPI-Devs), featuring various projects such as
-[ModPi](ModPi "wikilink") and the multiplayer proxy,[^1] but when
-[MCPI-Reborn](MCPI-Reborn "wikilink") (previously MCPI-Docker) was
+ModPi and the multiplayer proxy, but when
+[MCPI-Reborn](../Reborn/Introduction.md) (previously MCPI-Docker) was
 created, the project tried to be compatible with it, resulting in a
 fragile *"only works on my machine"* program. After an hiatus, the
 project was abandoned. It was officially deprecated after after the
 MCPIL-R release.
 
 <table>
-<caption>Timeline for MCPIL-Legacy<a href="#fn1" class="footnote-ref"
-id="fnref1" role="doc-noteref"><sup>1</sup></a></caption>
 <thead>
 <tr class="header">
 <th><p>Version</p></th>
@@ -130,7 +130,7 @@ role="doc-backlink">↩︎</a></li>
 </ol>
 </section>
 
-Timeline for MCPIL-Legacy[^2]
+Timeline for MCPIL-Legacy: <https://github.com/MCPI-Revival/MCPIL-Legacy/releases>
 
 ### Developers
 
@@ -142,13 +142,13 @@ Timeline for MCPIL-Legacy[^2]
 
 ## Reborn Project (MCPIL-R)
 
+![Development Image Of MCPIL 0.1.9](A_leak_of_MCPIL_0.1.9.png)
+
 After the abandonment of the original project, a new one was built, with
 some concepts like MCPI-Reborn integration and a better internal design
 in mind. This version was deprecated, and had reached most of its goals.
 
 <table>
-<caption>Timeline for MCPIL<a href="#fn1" class="footnote-ref"
-id="fnref1" role="doc-noteref"><sup>1</sup></a></caption>
 <thead>
 <tr class="header">
 <th><p>Version</p></th>
@@ -220,18 +220,8 @@ name.</p></td>
 </tr>
 </tbody>
 </table>
-<section id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><a
-href="https://github.com/MCPI-Revival/MCPIL/releases">MCPIL
-Releases</a><a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></li>
-</ol>
-</section>
 
-Timeline for MCPIL[^3]
+Timeline for MCPIL: <https://github.com/MCPI-Revival/MCPIL/releases>
 
 ### Developers
 
@@ -246,7 +236,7 @@ Timeline for MCPIL[^3]
 ## jMCPIL and gMCPIL
 
 After the deprecation of MCPIL-R, two new competing launchers were
-developed, [jMCPIL](jMCPIL "wikilink") and [gMCPIL](gMCPIL "wikilink").
+developed, jMCPIL and [gMCPIL](GMCPIL.md).
 The former is written in Java using the built-in Swing library, and the
 later is written in C using the GTK+ 3 library (later rewritten to use
 Vala for the frontend). These two competed to replace MCPIL-R, and due
@@ -260,16 +250,4 @@ being able to choose between the two in the Pi-Apps installer.
 
 ## Trivia
 
-- There is no "World Settings" tab in any MCPIL launcher except
-  MCPIL-Legacy.
-
-## References
-
-<references />
-
-[^1]: [@MCPI-Revival/proxy](https://github.com/MCPI-Revival/proxy)
-
-[^2]: [MCPIL-Legacy
-    Releases](https://github.com/MCPI-Revival/MCPIL-Legacy/releases)
-
-[^3]: [MCPIL Releases](https://github.com/MCPI-Revival/MCPIL/releases)
+* There is no "World Settings" tab in any MCPIL launcher except MCPIL-Legacy.

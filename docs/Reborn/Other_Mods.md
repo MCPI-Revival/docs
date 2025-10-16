@@ -1,23 +1,23 @@
-This page is an index of publicly released mod and patches for
-[MCPI-Reborn](MCPI-Reborn "wikilink"), it does not include Reborn's
-built-in mods or forks of Reborn. It is sorted into groups of author (if
-multiple authors worked in it, it goes under all authors), with the mods
-(ignoring leading \`lib\`) then the patches (both sorted
+# Other Mods
+
+This page is an index of publicly released mod and patches for [MCPI-Reborn](Introduction.md),
+it does not include Reborn's built-in mods or forks of Reborn.
+It is sorted into groups of author (if multiple authors worked in it, it goes under all authors),
+with the mods (ignoring leading `lib`) then the patches (both sorted
 alphabetically). The binary provides is not guaranteed to be the most
 recent.
 
-most mods have been broken in 3.0.0, but they can be fixed by doing the
-following:
+Most mods have been broken in 3.0.0, but they can be fixed by doing the following:
 
 TODO: put the actual fixing process here
 
-### basedSkeleton
+## basedSkeleton
 
 \- libmy-tile.so: a stand-alone fork of TheBrokenRails my-tile patch,
 [data](https://github.com/basedSkeleton/my-tile),
 [binary](https://github.com/basedSkeleton/my-tile/releases/download/1.0.0/libmy-tile.so)
 
-### Bigjango
+## Bigjango
 
 \- libcake.so: adds cake (made Isak and Nobody),
 [data](https://discord.com/channels/740287937727561779/740287938453045401/1078558047875629156),
@@ -58,7 +58,7 @@ core,
 [data](https://github.com/Bigjango13/MCPI-Mods/blob/master/misc/pickblock.cpp),
 [binary](https://discord.com/channels/740287937727561779/1172258840251732092/1193407890573234186)
 
-### Isak
+## Isak
 
 \- libcake.so: adds cake (made with Bigjango and Nobody),
 [data](https://discord.com/channels/740287937727561779/740287938453045401/1078558047875629156),
@@ -68,7 +68,7 @@ core,
 [data](https://discord.com/channels/740287937727561779/809882745404260352/1006530741825441842),
 [binary](https://cdn.discordapp.com/attachments/740287938453045401/1078558046613143562/libcake.so)
 
-### NikZapp
+## NikZapp
 
 \- libniksbettergrass.so: improves grass and related items, adds a way
 to change grass color,
@@ -80,13 +80,13 @@ and glowstone,
 [data](https://github.com/NikZapp/mcpi-block-shenanigans),
 [binary](https://github.com/NikZapp/mcpi-block-shenanigans/releases/download/v1.0/libmcpiblocks.so)
 
-### Nobody6502
+## Nobody6502
 
 \- libcake.so: adds cake (made with Bigjango and Isak),
 [data](https://discord.com/channels/740287937727561779/740287938453045401/1078558047875629156),
 [binary](https://cdn.discordapp.com/attachments/740287938453045401/1078558046613143562/libcake.so)
 
-### TheBrokenRail
+## TheBrokenRail
 
 \- libnight-creative.so: locks creative mode in night,
 [data](https://discord.com/channels/740287937727561779/740287938453045401/1153731188196917438),
@@ -112,7 +112,7 @@ and glowstone,
 \- speed-hack.patch: allows going faster by pressing lctrl,
 [patch](https://discord.com/channels/740287937727561779/740287938453045401/879840761078759496)
 
-### alvarito050506
+## alvarito050506
 
 \- libhack.so: a stand-alone fork of TheBrokenRails cheat.patch, adds
 some useful items to the inventory on servers

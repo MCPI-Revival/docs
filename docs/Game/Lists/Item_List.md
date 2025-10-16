@@ -1,12 +1,11 @@
-Credits to Wallee#8314 on Discord for generating this and crashing his
+# Item List
+
+Credits to `Wallee#8314` on Discord for generating this and crashing his
 game 200 times in the name of science! This list contains the unofficial
 item name and it's id. The only way to get them in your inventory is to
-use a custom [MCPI-Reborn](MCPI-Reborn "wikilink")
-[mod](https://github.com/Bigjango13/MCPI-Mods/tree/master/extended-creative-inventory),
-or edit your world's level.dat file with
-[MCPIedit.](MCPIedit "wikilink")
+use a custom [MCPI-Reborn](../../Reborn/Introduction.md) [mod](https://github.com/Bigjango13/MCPI-Mods/tree/master/extended-creative-inventory).
 
-``` text
+```text
 Iron Shovel: 256
 Iron Pickaxe: 257
 Iron Axe: 258
@@ -104,5 +103,5 @@ Nether Quartz: 406
 Camera: 456
 ```
 
-There are also common mods which add items, such as Reborns built in
+There are also common mods which add items, such as Reborn's built in
 bucket mod (id: 325).

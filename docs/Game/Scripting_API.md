@@ -1,8 +1,11 @@
-Scripting API Protocol Documentation:
-<https://wiki.vg/Minecraft_Pi_Protocol>
+# Scripting API
 
-Scripting API Reference:
-<https://www.stuffaboutcode.com/p/minecraft-api-reference.html>
+Scripting API Protocol Documentation:
+
+* <https://wiki.vg/Minecraft_Pi_Protocol>
+* [Reborn's API Reference](../Reborn/Latest/API.md)
+
+Scripting API Reference: <https://www.stuffaboutcode.com/p/minecraft-api-reference.html>
 
 There are many forks of the MCPI API that give support to a different
 language:
@@ -11,9 +14,11 @@ Python: <https://github.com/martinohanlon/mcpi>
 
 Golang: <https://github.com/ancientlore/go-mcpi-api>
 
-Scratch 2: <https://github.com/jbaragry/mcpi-scratch>
-<https://github.com/scratch2mcpi/scratch2mcpi>
-<https://github.com/olliecheng/mcpi-scratch>
+Scratch 2:
+
+* <https://github.com/jbaragry/mcpi-scratch>
+* <https://github.com/scratch2mcpi/scratch2mcpi>
+* <https://github.com/olliecheng/mcpi-scratch>
 
 Rust: <https://github.com/MCPI-Revival/mcpi-api-rust>
 

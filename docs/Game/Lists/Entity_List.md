@@ -1,10 +1,12 @@
+# Entity List
+
 This page lists every entity in MCPI, it's creature type (if it's not
 Entity), it's entity type id, how to spawn it, what it drops, and other
 notable features of the entity. Some entities don't have an entity type
 id, for these entities getEntityTypeId returns 0, which is why they are
 listed below with an entity type id of 0.
 
-``` text
+```text
 0: Particle
 - Can't be interacted with
 - Cannot die, but despawns automatically
@@ -110,10 +112,9 @@ listed below with an entity type id of 0.
 - Uses the painting model, id 20
 ```
 
-The creature base types are as follows (returned from
-`getCreatureBaseType`):
+The creature base types are as follows (returned from `getCreatureBaseType`):
 
-``` text
+```
 0: Entity
 1: Monster
 2: Animal

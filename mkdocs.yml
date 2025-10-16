@@ -2,11 +2,9 @@ site_name: MCPI-Revival
 theme: readthedocs
 plugins:
   - gh-admonitions
-  - section-index
 markdown_extensions:
   - admonition
   - footnotes
   - sane_lists
   - mdx_truly_sane_lists
-  - mdx_breakless_lists
   - pymdownx.superfences

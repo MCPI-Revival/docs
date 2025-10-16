@@ -11,6 +11,4 @@ inject() {
 }
 inject mkdocs-github-admonitions-plugin
 inject mdx_truly_sane_lists
-inject mdx-breakless-lists
 inject pymdown-extensions
-inject mkdocs-section-index

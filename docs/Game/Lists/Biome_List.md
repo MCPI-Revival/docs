@@ -1,6 +1,8 @@
+# Biome List
+
 There are 9 biomes in MCPI, the are as follows:
 
-``` text
+```text
 Rainforest (RainforestBiome)
 - Much higher chance of trees
 Swampland (SwampBiome)

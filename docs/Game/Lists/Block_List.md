@@ -1,15 +1,15 @@
+# Block List
+
 This list covers all blocks and their variants. A huge portion of this
 was written by [NikZapp](https://github.com/nikzapp) and also a large
-amount of the info came from [Martin O'
-Hanlon](https://github.com/martinohanlon/) who provided info on block
-rotations, and [Raspbery Pi
-Spy](https://www.raspberrypi-spy.co.uk/2014/09/raspberry-pi-minecraft-block-id-number-reference/).
+amount of the info came from [Martin O' Hanlon](https://github.com/martinohanlon/)
+who provided info on block rotations, and [Raspbery Pi Spy](https://www.raspberrypi-spy.co.uk/2014/09/raspberry-pi-minecraft-block-id-number-reference/).
 
 It is important to note that even if a block does not depend on the
 data(damage) value, it is still stored inside the block. This allows to
 encode data in ordinary blocks like stone which will not be visible.
 
-``` text
+```text
 0: air
 - This block does not depend on data values
 
