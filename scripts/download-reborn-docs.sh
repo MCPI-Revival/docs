@@ -3,7 +3,7 @@
 set -e
 
 # Values
-URL="https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn"
+URL='https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn'
 DIR='docs/Reborn'
 
 # Clone And Copy Branch
