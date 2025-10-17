@@ -3,7 +3,7 @@
 Credits to `Wallee#8314` on Discord for generating this and crashing his
 game 200 times in the name of science! This list contains the unofficial
 item name and it's id. The only way to get them in your inventory is to
-use a custom [MCPI-Reborn](../../Reborn/Introduction.md) [mod](https://github.com/Bigjango13/MCPI-Mods/tree/master/extended-creative-inventory).
+use a custom [MCPI-Reborn](../../reborn/INTRO.md) [mod](https://github.com/Bigjango13/MCPI-Mods/tree/master/extended-creative-inventory).
 
 ```text
 Iron Shovel: 256

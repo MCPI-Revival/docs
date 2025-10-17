@@ -14,7 +14,7 @@ including several disabled features.
 ### New Features
 
 * Sneaking (two years before it was added in Pocket Edition in v0.12.1[^3])
-* [Scripting API](Scripting_API.md)
+* [Scripting API](SCRIPTING_API.md)
 
 ### Other Differences
 

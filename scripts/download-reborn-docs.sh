@@ -4,7 +4,7 @@ set -e
 
 # Values
 URL='https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn'
-DIR='docs/Reborn'
+DIR='docs/reborn'
 
 # Clone And Copy Branch
 clone() {
@@ -13,7 +13,7 @@ clone() {
     git clone --depth 1 "${URL}.git" -b "${BRANCH}" tmp
 
     # Copy Files
-    OUT="${DIR}/$2"
+    OUT="${DIR}/${BRANCH}"
     rm -rf "${OUT}"
     cp -r tmp/docs "${OUT}"
     INTRO_NAME='INTRO.md'
@@ -24,7 +24,7 @@ clone() {
         cp {} "${OUT}" \;
     rm -rf tmp
 
-    # Patch URLs
+    # Fix External URLs
     fix() {
         impl() {
             find "${OUT}" -type f -exec \
@@ -52,6 +52,6 @@ clone() {
 }
 
 # Latest
-clone master 'Latest'
+clone master
 # 2.X
-clone 2.x 'Legacy'
+clone 2.x

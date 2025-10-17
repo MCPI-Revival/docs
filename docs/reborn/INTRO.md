@@ -14,7 +14,7 @@ It also has a more integrated UI.
 
 This is currently under active devlopemnt.
 
-More information can be found [here](Latest/INTRO.md).
+More information can be found [here](master/INTRO.md).
 
 ## 2.0.0 (Legacy)
 
@@ -25,7 +25,7 @@ GLFW and having the binary run with QEMU. Other notable changes included sound s
 ARM64 support, External Server support instead of a proxy, and binding
 the Q key to drop items.
 
-More information can be found [here](Legacy/INTRO.md).
+More information can be found [here](2.x/INTRO.md).
 
 ## 1.0.0 (MCPI-Docker)
 

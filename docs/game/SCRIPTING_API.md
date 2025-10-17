@@ -3,7 +3,7 @@
 Scripting API Protocol Documentation:
 
 * <https://wiki.vg/Minecraft_Pi_Protocol>
-* [Reborn's API Reference](../Reborn/Latest/API.md)
+* [Reborn's API Reference](../reborn/master/API.md)
 
 Scripting API Reference: <https://www.stuffaboutcode.com/p/minecraft-api-reference.html>
 

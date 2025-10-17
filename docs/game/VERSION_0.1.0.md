@@ -10,7 +10,7 @@ officially released, but was leaked by Mojang.
 * Uses the Xperia Play UIs instead of the touch UIs
 * Uses the old static water texture
 * Placing a sign will just place it without opening the editing UI
-* [Scripting API](Scripting_API.md)
+* [Scripting API](SCRIPTING_API.md)
 * No sound
 * Sneaking is added
 * Calm water is in the Creative inventory

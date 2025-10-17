@@ -1,6 +1,6 @@
 # Other Mods
 
-This page is an index of publicly released mod and patches for [MCPI-Reborn](Introduction.md),
+This page is an index of publicly released mod and patches for [MCPI-Reborn](INTRO.md),
 it does not include Reborn's built-in mods or forks of Reborn.
 It is sorted into groups of author (if multiple authors worked in it, it goes under all authors),
 with the mods (ignoring leading `lib`) then the patches (both sorted

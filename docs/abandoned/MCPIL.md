@@ -8,7 +8,7 @@ Edition, developed and maintained by the MCPI Revival project.
 The original Launcher started as the main project of MCPI-Revival
 (previously known as MCPI-Devs), featuring various projects such as
 ModPi and the multiplayer proxy, but when
-[MCPI-Reborn](../Reborn/Introduction.md) (previously MCPI-Docker) was
+[MCPI-Reborn](../reborn/INTRO.md) (previously MCPI-Docker) was
 created, the project tried to be compatible with it, resulting in a
 fragile *"only works on my machine"* program. After an hiatus, the
 project was abandoned. It was officially deprecated after after the

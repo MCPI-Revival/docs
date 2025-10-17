@@ -1,6 +1,6 @@
 # Creator Mode
 
-Creator Mode is a special game mode used internally by [Minecraft: Pi Edition](Version_0.1.1.md).
+Creator Mode is a special game mode used internally by [Minecraft: Pi Edition](VERSION_0.1.1.md).
 It is almost identical to the Creative Mode, and it is hardcoded to be the default
 MCPI game mode.[^1] The main difference with the Creative Mode is that,
 by default, time does not advance, since it does not call a "tick"

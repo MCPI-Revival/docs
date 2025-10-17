@@ -14,7 +14,7 @@ MCPE/MCPI dedicated server software.
 Below is a list of all of the ones compatible with the Pi Edition of the
 game.
 
-1.  [MCPI-Reborn](../Reborn/Introduction.md), a client mod for MCPI with
+1.  [MCPI-Reborn](../reborn/INTRO.md), a client mod for MCPI with
     loads of new features, which also has a build which uses the LAN
     multiplayer code in the original game and adapts it for use in a
     dedicated server. The issue with this approach is that it is
@@ -22,7 +22,7 @@ game.
     any regular functionality supported by the game works exactly as
     expected, making this the best and most used server software for the
     game.
-2.  [PocketMine-MP](PocketMine-MP.md), a server software
+2.  [PocketMine-MP](POCKETMINE_MP.md), a server software
     originally for the Pocket Edition of the game, but with a 0.6.1
     version, and thus, MCPI support. PocketMine-MP is open source and
     extensible, so new features, gamemodes, and functionality are
