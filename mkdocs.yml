@@ -5,10 +5,13 @@ site_description: 'Minecraft: Pi Edition: Revival Project'
 
 theme: readthedocs
 
+exclude_docs: SUMMARY.md
+
 plugins:
   - search
   - gh-admonitions
-  - awesome-nav
+  - literate-nav
+
 markdown_extensions:
   - admonition
   - footnotes

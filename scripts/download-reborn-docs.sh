@@ -16,15 +16,13 @@ clone() {
     OUT="${DIR}/$2"
     rm -rf "${OUT}"
     cp -r tmp/docs "${OUT}"
-    INDEX="${OUT}/Introduction.md"
-    cp tmp/README.md "${INDEX}"
+    INTRO_NAME='INTRO.md'
+    INTRO="${OUT}/${INTRO_NAME}"
+    cp tmp/README.md "${INTRO}"
     START='start.png'
     find tmp/images -name "${START}" -exec \
         cp {} "${OUT}" \;
     rm -rf tmp
-
-    # Remove Unneeded Files
-    find "${OUT}" -name README.md -delete
 
     # Patch URLs
     fix() {
@@ -41,14 +39,19 @@ clone() {
     fix libreborn
     fix symbols
 
+    # Rename Navigation Files
+    find "${OUT}" -name README.md -execdir \
+        mv {} SUMMARY.md \;
+
     # Patch Introduction
-    sed -i 's|docs/||g' "${INDEX}"
-    sed -i '/## Documentation/,$d' "${INDEX}"
-    sed -i 's|height="\([0-9]\+\)"|style="height: \1px"|g' "${INDEX}"
-    sed -i "s|\"images/.*${START}|\"../${START}|g" "${INDEX}"
+    sed -i 's|docs/||g' "${INTRO}"
+    sed -i '/## Documentation/,$d' "${INTRO}"
+    sed -i 's|height="\([0-9]\+\)"|style="height: \1px"|g' "${INTRO}"
+    sed -i "s|\"images/.*${START}|\"../${START}|g" "${INTRO}"
+    sed -i "s|<!-- Introduction Link Location -->|* [Introduction](${INTRO_NAME})|g" "${OUT}/SUMMARY.md"
 }
 
 # Latest
 clone master 'Latest'
 # 2.X
-clone 2.x 'Legacy (2.X)'
+clone 2.x 'Legacy'

@@ -1,7 +1,7 @@
 # gMCPIL
 
 gMCPIL is a simple launcher for
-[MCPI-Reborn 2.X](../Reborn/Legacy (2.X)/Introduction.md) (a modern remake of MCPI) made
+[MCPI-Reborn 2.X](../Reborn/Legacy/INTRO.md) (a modern remake of MCPI) made
 with Vala and GTK+.
 
 It was officially discontinued on Mar 20, 2022.
