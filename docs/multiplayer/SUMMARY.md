@@ -1,3 +1,3 @@
 * *.md
-* [RakNet Documentation](raknet/)
-  * [Doxygen](raknet/Doxygen/html/)
+* [RakNet Documentation](https://mcpi-revival.github.io/docs/multiplayer/raknet/)
+  * [Doxygen](https://mcpi-revival.github.io/docs/multiplayer/raknet/Doxygen/html/)
