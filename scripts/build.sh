@@ -5,6 +5,9 @@ set -e
 mkdocs build --strict
 
 # RakNet
+if [ -z "${CI}" ]; then
+    exit 0
+fi
 cd site/multiplayer
 tmp="$(pwd)/tmp"
 rm -rf "${tmp}"
