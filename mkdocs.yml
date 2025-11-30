@@ -10,7 +10,10 @@ exclude_docs: SUMMARY.md
 plugins:
   - search
   - gh-admonitions
-  - literate-nav
+  - literate-nav:
+        markdown_extensions:
+          - sane_lists
+          - mdx_truly_sane_lists
 
 markdown_extensions:
   - admonition
