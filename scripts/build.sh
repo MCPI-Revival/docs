@@ -5,11 +5,11 @@ set -e
 mkdocs build --strict
 
 # RakNet
-cd site
+cd site/multiplayer
 tmp="$(pwd)/tmp"
 rm -rf "${tmp}"
 mkdir "${tmp}"
-name='RakNet'
+name='raknet'
 zip="${tmp}/${name}.zip"
 url='http://www.jenkinssoftware.com/raknet/downloads/RakNet_PC-4.036.zip'
 wget --quiet -O "${zip}" "${url}"
