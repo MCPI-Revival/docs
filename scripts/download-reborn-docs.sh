@@ -53,5 +53,15 @@ clone() {
 
 # Latest
 clone master
+echo '* [Symbols Doxygen](https://mcpi-revival.github.io/docs/reborn/master/symbols-doxygen/)' >> "${DIR}/master/SUMMARY.md"
 # 2.X
 clone 2.x
+
+# Download MCPI-Reborn SDK
+version='3.0.1'
+url="https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn/releases/download/${version}/minecraft-pi-reborn-${version}-amd64.AppImage"
+appimage='game.AppImage'
+wget --quiet -O "${appimage}" "${url}"
+chmod +x "${appimage}"
+"./${appimage}" --appimage-extract-and-run --copy-sdk
+rm -f "${appimage}"
