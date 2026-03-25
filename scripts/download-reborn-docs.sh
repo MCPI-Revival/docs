@@ -58,7 +58,7 @@ echo '* [Symbols Doxygen](https://mcpi-revival.github.io/docs/reborn/master/symb
 clone 2.x
 
 # Download MCPI-Reborn SDK
-version='3.0.1'
+version='3.0.2'
 url="https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn/releases/download/${version}/minecraft-pi-reborn-${version}-amd64.AppImage"
 appimage='game.AppImage'
 wget --quiet -O "${appimage}" "${url}"
